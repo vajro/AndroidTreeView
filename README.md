@@ -1,6 +1,27 @@
 AndroidTreeView
 ====================
 
+This is a fork of the original AndroidTreeView Project. 
+
+I have added collapseNodeWithSubnodes method in the main class to have the functionality to collapse a node including it's subnodes in a single method call.
+
+You can use the gradle dependency, you have to add these lines in your build.gradle file:
+
+```xml
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+	  compile 'com.github.vajro:AndroidTreeView:1.3.1'
+}
+```
+Kindly ensure you add Jitpack's maven repo url in your gradle file.
+
+#ORIGINAL README
+
+AndroidTreeView
+====================
 ### Recent changes
 
 
